@@ -26,7 +26,7 @@ public static WebDriver driver;
 	@DataProvider(name = "filterData")
 	public Object[][] filterData() throws IOException {
 		
-		File src = new File("D:\\Eclipse Workspace\\TestProject\\TestData\\Douglas.xlsx");
+		File src = new File("C:\\Users\\Mani\\git\\TestProject\\TestProject\\TestData\\Douglas.xlsx");
 		FileInputStream fileInputStream = new FileInputStream(src);
 	    XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
 	    XSSFSheet sheet = workbook.getSheetAt(0);
