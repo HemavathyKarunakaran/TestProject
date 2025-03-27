@@ -23,7 +23,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestCase {
 public static WebDriver driver;
 	
-	@DataProvider(name = "filterData")
+	/*@DataProvider(name = "filterData")
 	public Object[][] filterData() throws IOException {
 		
 		File src = new File("C:\\Users\\Mani\\git\\TestProject\\TestProject\\TestData\\Douglas.xlsx");
@@ -120,6 +120,6 @@ public static WebDriver driver;
 		driver.quit();
 	}
 	
-
+*/
 
 }
